@@ -2,7 +2,7 @@ module.exports = {
   name: "help",
   alias: ["menu", "h", "helpm", "helpmenu"],
   desc: "Gives all bot commands list",
-  react: "✨",
+  react: "⚡",
   category: "Core",
   start: async (
     Miku,
@@ -67,7 +67,7 @@ const now = new Date();
         }
       let textHelpMenu = `${greeting} *${pushName}* Senpai,
 
-I am *${botName}*, a bot developed by *Team Atlas*.
+I am *${botName}*, a bot Modified by *Nexxer*.
 
 🎀 My prefix is: *${prefix}*
 
@@ -293,7 +293,7 @@ Here's the list of my Commands.\n
       }
 
       textHelpMenu += `*🔰  ${botName}  🔰*
- _Powered By:_ *Team ATLAS*
+ _Powered By:_ *Ɲᴇꪎꪎᴇʀ  ꢺᴀϻᴀ 𓆩×͜×𓆪ꪾ*
 
 🎀 To use any of these commands type " *${prefix}Command name* ".
 
